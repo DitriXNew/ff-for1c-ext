@@ -4,7 +4,7 @@
     ///////////////////////////////////////////////////////////////////////////
 
     let settings =  {
-        serviceUrl: "http://192.168.31.36/httpService/hs/Coordinate",
+        serviceUrl: "http://192.168.31.36/httpService/hs/service/activeElement",
         authCredentials: {
           authtype: "Basic",
           username: "admin",
