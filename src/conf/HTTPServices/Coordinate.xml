@@ -5,7 +5,7 @@
 			<Name>Coordinate</Name>
 			<Synonym>
 				<v8:item>
-					<v8:lang>ru</v8:lang>
+					<v8:lang>en</v8:lang>
 					<v8:content>Coordinate</v8:content>
 				</v8:item>
 			</Synonym>
@@ -20,7 +20,7 @@
 					<Name>Coordinate</Name>
 					<Synonym>
 						<v8:item>
-							<v8:lang>ru</v8:lang>
+							<v8:lang>en</v8:lang>
 							<v8:content>Coordinate</v8:content>
 						</v8:item>
 					</Synonym>
@@ -33,7 +33,7 @@
 							<Name>Post</Name>
 							<Synonym>
 								<v8:item>
-									<v8:lang>ru</v8:lang>
+									<v8:lang>en</v8:lang>
 									<v8:content>Post</v8:content>
 								</v8:item>
 							</Synonym>
