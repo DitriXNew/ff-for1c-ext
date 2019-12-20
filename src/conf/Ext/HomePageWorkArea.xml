@@ -3,12 +3,20 @@
 	<WorkingAreaTemplate>TwoColumnsEqualWidth</WorkingAreaTemplate>
 	<LeftColumn>
 		<Item>
-			<Form>CommonForm.Form</Form>
+			<Form>21cdae4e-b590-49d5-82fa-6885709c4a60</Form>
 			<Height>10</Height>
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Item>
 	</LeftColumn>
-	<RightColumn/>
+	<RightColumn>
+		<Item>
+			<Form>InformationRegister.ActiveElementLog.Form.ListForm</Form>
+			<Height>10</Height>
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Item>
+	</RightColumn>
 </HomePageWorkArea>

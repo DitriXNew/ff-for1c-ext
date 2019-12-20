@@ -39,7 +39,7 @@
 							</Synonym>
 							<Comment/>
 							<HTTPMethod>POST</HTTPMethod>
-							<Handler>CoordinatePost</Handler>
+							<Handler>activeElement</Handler>
 						</Properties>
 					</Method>
 				</ChildObjects>

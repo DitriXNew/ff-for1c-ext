@@ -1,23 +1,49 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.8">
 	<ConfigVersions>
-		<Metadata name="CommonForm.Form" id="21cdae4e-b590-49d5-82fa-6885709c4a60" configVersion="20dde8e25e31b042b813b2d7b955905500000000"/>
-		<Metadata name="CommonForm.Form.Form" id="21cdae4e-b590-49d5-82fa-6885709c4a60.0" configVersion="9806b67882e30049b37580af9b5e266d00000000"/>
-		<Metadata name="Configuration.FF_ext_server" id="91286da6-355a-4654-9697-c39490d81695" configVersion="da2638d19fa09f4bbc4c5f41378ba57c00000000"/>
-		<Metadata name="Configuration.FF_ext_server.HomePageWorkArea" id="039a1ac9-b9af-457f-b32e-dbf64275c598.8" configVersion="cbe5c48a0c9f39498d01d50f87a9b51f00000000"/>
-		<Metadata name="Constant.Data" id="25537c12-8be6-487d-8bb5-0e5285fed311" configVersion="cf1d5a362bbe7547917ff65794d9cf9a00000000"/>
-		<Metadata name="HTTPService.FF_Service" id="5f5c3596-d2a2-498e-918e-6d2fb5fea022" configVersion="eb877f907b88d940bf7754b04df1cba800000000">
+		<Metadata name="Catalog.drawData" id="bc88459d-f31f-463a-88ab-8060af88d407" configVersion="1d3b5c94cadb024b94af83790f099e1e00000000">
+			<Metadata name="Catalog.drawData.TabularSection.Steps.Attribute.DeleteAfter" id="0229236a-151c-487b-9988-9e8363171ea2"/>
+			<Metadata name="Catalog.drawData.TabularSection.Steps.Attribute.x" id="45cfc50f-3a48-418a-bb90-4a5cb7edc08e"/>
+			<Metadata name="Catalog.drawData.TabularSection.Steps.Attribute.Delay" id="8014135f-0b0e-437e-a782-b933de549f75"/>
+			<Metadata name="Catalog.drawData.TabularSection.Steps.Attribute.y" id="cf7c8af6-e54c-4346-bfb6-5085e9ef796d"/>
+			<Metadata name="Catalog.drawData.TabularSection.Steps.Attribute.Step" id="cf86f5b7-8074-48e6-a226-806df1cf8080"/>
+			<Metadata name="Catalog.drawData.TabularSection.Steps" id="e5d9dcaa-5a18-4bbd-8907-a1e307823080"/>
+		</Metadata>
+		<Metadata name="Catalog.drawData.Form.ItemForm" id="7a0a3983-f9d8-491a-b1c5-b4bbc5e1e9d2" configVersion="a19460c147803c4c85036d5ecb68013900000000"/>
+		<Metadata name="Catalog.drawData.Form.ItemForm.Form" id="7a0a3983-f9d8-491a-b1c5-b4bbc5e1e9d2.0" configVersion="4579939922019044b4e8c50197bc7b8c00000000"/>
+		<Metadata name="Configuration.FF_ext_server" id="91286da6-355a-4654-9697-c39490d81695" configVersion="4737850137478746bfc7004686351bc000000000"/>
+		<Metadata name="Configuration.FF_ext_server.HomePageWorkArea" id="039a1ac9-b9af-457f-b32e-dbf64275c598.8" configVersion="67e386b28b5e654596e74dc31127a97100000000"/>
+		<Metadata name="HTTPService.FF_Service" id="5f5c3596-d2a2-498e-918e-6d2fb5fea022" configVersion="1b1ebfd4b2d81f4c9bc52d22919231b600000000">
 			<Metadata name="HTTPService.FF_Service.URLTemplate.activeElement" id="21a1f8cc-a4a9-499f-8783-4ea547726548"/>
 			<Metadata name="HTTPService.FF_Service.URLTemplate.drawPage" id="420a886c-2947-4db1-b4d4-c7db0f2d7372"/>
 			<Metadata name="HTTPService.FF_Service.URLTemplate.drawPage.Method.Get" id="5c7389ab-fc29-4e34-98ee-2b74ebe0452c"/>
 			<Metadata name="HTTPService.FF_Service.URLTemplate.activeElement.Method.Post" id="7cb8f08a-692c-4ced-9a40-32f2adb1d8ef"/>
 		</Metadata>
-		<Metadata name="HTTPService.FF_Service.Module" id="5f5c3596-d2a2-498e-918e-6d2fb5fea022.0" configVersion="14b96bf543b56e4780a5b16e9c6a36f700000000"/>
-		<Metadata name="InformationRegister.ActiveElementLog" id="e6c08322-f993-422d-8e72-229c58bc6651" configVersion="971eefe92be2e9439f59e133b78ce90d00000000">
+		<Metadata name="HTTPService.FF_Service.Module" id="5f5c3596-d2a2-498e-918e-6d2fb5fea022.0" configVersion="5493c074ef424b47b92ab24aa78a57c100000000"/>
+		<Metadata name="InformationRegister.ActiveElementLog" id="e6c08322-f993-422d-8e72-229c58bc6651" configVersion="9f01e287a5132c4697ed7605866707da00000000">
+			<Metadata name="InformationRegister.ActiveElementLog.Dimension.UNIXPeriod" id="12c14d49-a1c2-4905-952f-e49a3e794150"/>
 			<Metadata name="InformationRegister.ActiveElementLog.Dimension.ID" id="190e628e-05e9-4464-bc9d-3f7dfc55b817"/>
+			<Metadata name="InformationRegister.ActiveElementLog.Resource.c_top" id="201b4fb6-d4f3-4925-8285-51830c91cb5b"/>
+			<Metadata name="InformationRegister.ActiveElementLog.Resource.c_left" id="32f64049-e9c8-4fbd-9a55-8546c2d1bca3"/>
+			<Metadata name="InformationRegister.ActiveElementLog.Resource.c_y" id="8708c55f-4af7-44df-92df-f65426a5f390"/>
+			<Metadata name="InformationRegister.ActiveElementLog.Resource.c_width" id="9285151a-6994-404d-8f7c-0ee2f59ffcae"/>
+			<Metadata name="InformationRegister.ActiveElementLog.Resource.c_right" id="b1828a89-9ba5-4809-b097-10c2b420db89"/>
+			<Metadata name="InformationRegister.ActiveElementLog.Resource.c_x" id="b36d85c8-8fa9-4c97-a05a-41f74c33f03e"/>
+			<Metadata name="InformationRegister.ActiveElementLog.Resource.c_height" id="c5082281-4064-4faa-830e-62a649aaf5d4"/>
+			<Metadata name="InformationRegister.ActiveElementLog.Resource.c_bottom" id="dc216b37-0b81-4071-94c7-663a557bc9f6"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ActiveElementLog.Form.ListForm" id="8f68628d-2bf3-4d75-ba91-1c8252717151" configVersion="0b1443a88751e94993148be987285fb400000000"/>
+		<Metadata name="InformationRegister.ActiveElementLog.Form.ListForm.Form" id="8f68628d-2bf3-4d75-ba91-1c8252717151.0" configVersion="1cf09210e12ad04ba1b6e6dc45fb184900000000"/>
+		<Metadata name="InformationRegister.NextSteps" id="d02ac53a-8e56-47a9-9d55-0193c35f4da9" configVersion="5a4e55735e31e2448bf260452e94c44900000000">
+			<Metadata name="InformationRegister.NextSteps.Resource.Delete" id="345b522f-e8d3-43e0-adee-8248f3c7e3c5"/>
+			<Metadata name="InformationRegister.NextSteps.Resource.DrawData" id="4894f8b8-e849-4dcc-bb18-a06943a0dcc7"/>
+			<Metadata name="InformationRegister.NextSteps.Resource.Done" id="7b4c330a-a885-429f-9467-f339f55b8760"/>
+			<Metadata name="InformationRegister.NextSteps.Resource.y" id="96aa11e4-3251-4338-8d87-5e83978535f8"/>
+			<Metadata name="InformationRegister.NextSteps.Resource.x" id="d4effa29-0c66-4995-b7b4-f216c15daf81"/>
+			<Metadata name="InformationRegister.NextSteps.Dimension.ID" id="f74c59db-33ef-43d0-bfde-8ae47a1e83d4"/>
 		</Metadata>
 		<Metadata name="Language.English" id="205976c5-5d5f-4932-aa03-919cad1b2c8b" configVersion="989653da6eccae4bb25960017ebd421500000000"/>
-		<Metadata name="Role.MainRole" id="70b57fe5-9027-4a11-bd91-d41a09425dd1" configVersion="86173f73fc2ae941b093ba13d1a64a2900000000"/>
-		<Metadata name="Role.MainRole.Rights" id="70b57fe5-9027-4a11-bd91-d41a09425dd1.0" configVersion="186b3e238a20e14fa6efcc9e75b54a5600000000"/>
+		<Metadata name="Role.MainRole" id="70b57fe5-9027-4a11-bd91-d41a09425dd1" configVersion="3a5b7bcd814baf40b415a5ae93cd1e5f00000000"/>
+		<Metadata name="Role.MainRole.Rights" id="70b57fe5-9027-4a11-bd91-d41a09425dd1.0" configVersion="e70e7bc96d0bb349afb4bfead53def8200000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

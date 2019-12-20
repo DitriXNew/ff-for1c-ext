@@ -142,9 +142,9 @@
 			<Language>English</Language>
 			<Role>MainRole</Role>
 			<HTTPService>FF_Service</HTTPService>
-			<Constant>Data</Constant>
-			<CommonForm>Form</CommonForm>
+			<Catalog>drawData</Catalog>
 			<InformationRegister>ActiveElementLog</InformationRegister>
+			<InformationRegister>NextSteps</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
