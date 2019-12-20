@@ -12,11 +12,7 @@
         },
         debug: true,
         timeout: 1000
-      };
-
-    function basicAuthHeader(cred) {
-        return 'Basic ' + btoa(cred.username + ":" + cred.password);
-    }
+    };
 
     let headers = new Headers();
     headers.append('Authorization', basicAuthHeader(settings.authCredentials));
@@ -24,22 +20,25 @@
 
     let previousCoordinates = {};
 
+    function basicAuthHeader(cred) {
+        return 'Basic ' + btoa(cred.username + ":" + cred.password);
+    }
+
     async function sendCoordinates(){
         let activeElement = document.activeElement;
+        let selectedField = '';
 
         if(activeElement.classList.contains('gridBody')){
-            let selectedField = activeElement.querySelector('.select.focus');
-            activeElement = selectedField ? selectedField : activeElement;
+            selectedField = activeElement.querySelector('.select.focus');
         }else if(activeElement.classList.contains('frameCommand')){
-            let selectedField = activeElement.querySelector('.focus');
-            activeElement = selectedField ? selectedField : activeElement;
+            selectedField = activeElement.querySelector('.focus');
         }else if(activeElement.classList.contains('cloud' && 'panelsShadow')){
-            let selectedField = activeElement.querySelector('.select');
-            activeElement = selectedField ? selectedField : activeElement;
+            selectedField = activeElement.querySelector('.select');
         }else if(activeElement.classList.contains('cloud' && 'cloudBorder')){
-            let selectedField = activeElement.querySelector('.select');
-            activeElement = selectedField ? selectedField : activeElement;
+            selectedField = activeElement.querySelector('.select');
         }
+
+        activeElement = selectedField ? selectedField : activeElement;
 
         let currentCoordinates = activeElement.getBoundingClientRect() !== null ? activeElement.getBoundingClientRect() : {};
         if(JSON.stringify(currentCoordinates) === JSON.stringify(previousCoordinates)) {
