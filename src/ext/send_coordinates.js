@@ -5,6 +5,7 @@
 
     let settings =  {
         serviceUrl: "http://192.168.31.36/httpService/hs/service/activeElement",
+        serviceUrlDraw: "http://192.168.31.36/httpService/hs/service/drawPage",
         authCredentials: {
           authtype: "Basic",
           username: "admin",
@@ -17,6 +18,8 @@
     let headers = new Headers();
     headers.append('Authorization', basicAuthHeader(settings.authCredentials));
     headers.append('Content-Type', 'application/json');
+
+    let id = 0;
 
     let previousCoordinates = {};
 
@@ -60,37 +63,69 @@
         
         previousCoordinates = currentCoordinates;
     
-       let response = await fetch(settings.serviceUrl, {
+       fetch(settings.serviceUrl, {
             method: 'POST',
             headers: headers,
             body: JSON.stringify({id: window.document.activeElement.id, currentCoordinates: currentCoordinates})
         });
 
-        let responseText = await response.text()
-
-        let text = document.createElement('span');
-        if(activeElement.id){
-            text.innerHTML = `${responseText}`;
-            text.style.position = "fixed";
-            text.style.zIndex = "999999";
-            text.style.top = activeElement.getBoundingClientRect().y - 20 +'px';
-            text.style.left = activeElement.getBoundingClientRect().x+'px';
-            document.body.appendChild(text);
-        }
-        
-
         setTimeout(() => {
             sendCoordinates();
-            text.remove();
         }, settings.timeout);
     }
 
-    setTimeout(sendCoordinates,settings.timeout);
-
-    function consolelog(e){
-        console.log(e.target)
+    async function getData(){
+        try{
+            let response = await fetch(settings.serviceUrlDraw, {
+                method: 'GET',
+                headers: headers
+            });
+    
+            let responseText = await response.json();
+            let drawMap = responseText.Draw;
+            let deleteArray = responseText.Delete;
+            Object.keys(drawMap).length !== 0 ? console.log(responseText) : '';
+    
+            if(Object.keys(drawMap).length !== 0){
+                Object.keys(drawMap).forEach(id => {
+                    console.log(id)
+                    let node = document.createElement('span');
+                    node.innerHTML = `${drawMap[id].body}`;
+                    node.id = id;
+                    node.style.position = "fixed";
+                    node.style.zIndex = "999999";
+                    node.style.top = drawMap[id].y + 'px';
+                    node.style.left = drawMap[id].x + 'px';
+                    window.top.document.body.appendChild(node);  
+                })
+            }
+    
+            if(deleteArray.length !== 0){
+                deleteArray.forEach(id => {
+                    window.top.document.querySelector(`#${id}`) !== null ? window.top.document.querySelector(`#${id}`).remove() : '';
+                })
+            }
+            
+            setTimeout(() => {
+                getData();
+            }, 1000);
+        }catch(error){
+            console.log(error)
+        }
     }
 
-    document.addEventListener('focusin', consolelog)
+    setTimeout(sendCoordinates,settings.timeout);
+    window === window.top ? setTimeout(getData, 1000) : '';
+
+    function consolelog(e){
+        // console.log(e.target, e.type, e.explicitOriginalTarget, e)
+    }
+
+    // setTimeout(() => {
+    //     document.body.addEventListener('focusin', consolelog);
+    //     document.querySelectorAll('*').forEach(node => {
+    //         node.addEventListener('click', consolelog);
+    //     })
+    // }, 8000)
 
 })();
