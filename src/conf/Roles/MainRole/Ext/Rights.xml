@@ -58,7 +58,7 @@
 		</right>
 	</object>
 	<object>
-		<name>HTTPService.Coordinate.URLTemplate.Coordinate.Method.Post</name>
+		<name>HTTPService.FF_Service.URLTemplate.activeElement.Method.Post</name>
 		<right>
 			<name>Use</name>
 			<value>true</value>

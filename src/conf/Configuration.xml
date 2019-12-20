@@ -141,9 +141,10 @@
 		<ChildObjects>
 			<Language>English</Language>
 			<Role>MainRole</Role>
-			<HTTPService>Coordinate</HTTPService>
+			<HTTPService>FF_Service</HTTPService>
 			<Constant>Data</Constant>
 			<CommonForm>Form</CommonForm>
+			<InformationRegister>ActiveElementLog</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
