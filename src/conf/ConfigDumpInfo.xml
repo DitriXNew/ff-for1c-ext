@@ -3,14 +3,19 @@
 	<ConfigVersions>
 		<Metadata name="CommonForm.Form" id="21cdae4e-b590-49d5-82fa-6885709c4a60" configVersion="20dde8e25e31b042b813b2d7b955905500000000"/>
 		<Metadata name="CommonForm.Form.Form" id="21cdae4e-b590-49d5-82fa-6885709c4a60.0" configVersion="9806b67882e30049b37580af9b5e266d00000000"/>
-		<Metadata name="Configuration.FF_ext_server" id="91286da6-355a-4654-9697-c39490d81695" configVersion="9c1de502fd5aac4bbd6b4ab4d96ea1f100000000"/>
+		<Metadata name="Configuration.FF_ext_server" id="91286da6-355a-4654-9697-c39490d81695" configVersion="da2638d19fa09f4bbc4c5f41378ba57c00000000"/>
 		<Metadata name="Configuration.FF_ext_server.HomePageWorkArea" id="039a1ac9-b9af-457f-b32e-dbf64275c598.8" configVersion="cbe5c48a0c9f39498d01d50f87a9b51f00000000"/>
 		<Metadata name="Constant.Data" id="25537c12-8be6-487d-8bb5-0e5285fed311" configVersion="cf1d5a362bbe7547917ff65794d9cf9a00000000"/>
-		<Metadata name="HTTPService.Coordinate" id="5f5c3596-d2a2-498e-918e-6d2fb5fea022" configVersion="bf4dff3120e86740a145511cf6d0b6dd00000000">
-			<Metadata name="HTTPService.Coordinate.URLTemplate.Coordinate" id="21a1f8cc-a4a9-499f-8783-4ea547726548"/>
-			<Metadata name="HTTPService.Coordinate.URLTemplate.Coordinate.Method.Post" id="7cb8f08a-692c-4ced-9a40-32f2adb1d8ef"/>
+		<Metadata name="HTTPService.FF_Service" id="5f5c3596-d2a2-498e-918e-6d2fb5fea022" configVersion="eb877f907b88d940bf7754b04df1cba800000000">
+			<Metadata name="HTTPService.FF_Service.URLTemplate.activeElement" id="21a1f8cc-a4a9-499f-8783-4ea547726548"/>
+			<Metadata name="HTTPService.FF_Service.URLTemplate.drawPage" id="420a886c-2947-4db1-b4d4-c7db0f2d7372"/>
+			<Metadata name="HTTPService.FF_Service.URLTemplate.drawPage.Method.Get" id="5c7389ab-fc29-4e34-98ee-2b74ebe0452c"/>
+			<Metadata name="HTTPService.FF_Service.URLTemplate.activeElement.Method.Post" id="7cb8f08a-692c-4ced-9a40-32f2adb1d8ef"/>
 		</Metadata>
-		<Metadata name="HTTPService.Coordinate.Module" id="5f5c3596-d2a2-498e-918e-6d2fb5fea022.0" configVersion="6d871811eaf25f4cbe0f9c13d228336300000000"/>
+		<Metadata name="HTTPService.FF_Service.Module" id="5f5c3596-d2a2-498e-918e-6d2fb5fea022.0" configVersion="14b96bf543b56e4780a5b16e9c6a36f700000000"/>
+		<Metadata name="InformationRegister.ActiveElementLog" id="e6c08322-f993-422d-8e72-229c58bc6651" configVersion="971eefe92be2e9439f59e133b78ce90d00000000">
+			<Metadata name="InformationRegister.ActiveElementLog.Dimension.ID" id="190e628e-05e9-4464-bc9d-3f7dfc55b817"/>
+		</Metadata>
 		<Metadata name="Language.English" id="205976c5-5d5f-4932-aa03-919cad1b2c8b" configVersion="989653da6eccae4bb25960017ebd421500000000"/>
 		<Metadata name="Role.MainRole" id="70b57fe5-9027-4a11-bd91-d41a09425dd1" configVersion="86173f73fc2ae941b093ba13d1a64a2900000000"/>
 		<Metadata name="Role.MainRole.Rights" id="70b57fe5-9027-4a11-bd91-d41a09425dd1.0" configVersion="186b3e238a20e14fa6efcc9e75b54a5600000000"/>

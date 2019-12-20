@@ -15,3 +15,8 @@ Function CoordinatePost(Request)
 	
 	Return Response;
 EndFunction
+
+Function drawPageGet(Request)
+	Response = New HTTPServiceResponse(200);
+	Return Response;
+EndFunction
