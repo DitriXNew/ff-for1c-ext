@@ -86,6 +86,12 @@
         }, settings.timeout);
     }
 
-    setTimeout(sendCoordinates,settings.timeout)
+    setTimeout(sendCoordinates,settings.timeout);
+
+    function consolelog(e){
+        console.log(e.target)
+    }
+
+    document.addEventListener('focusin', consolelog)
 
 })();
