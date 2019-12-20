@@ -65,7 +65,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Configuration.Конфигурация</name>
+		<name>Configuration.FF_ext_server</name>
 		<right>
 			<name>Administration</name>
 			<value>true</value>

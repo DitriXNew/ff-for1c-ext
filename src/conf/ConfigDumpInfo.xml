@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.8">
 	<ConfigVersions>
-		<Metadata name="CommonForm.Form" id="21cdae4e-b590-49d5-82fa-6885709c4a60" configVersion="596c4fa92a9ab740ab592bc2ded9c6f600000000"/>
-		<Metadata name="CommonForm.Form.Form" id="21cdae4e-b590-49d5-82fa-6885709c4a60.0" configVersion="1804e3a5752bc649a7b16a6707234dc500000000"/>
-		<Metadata name="Configuration.Конфигурация" id="91286da6-355a-4654-9697-c39490d81695" configVersion="965dd7c97f29914da5938ba6550f9a4100000000"/>
-		<Metadata name="Configuration.Конфигурация.HomePageWorkArea" id="039a1ac9-b9af-457f-b32e-dbf64275c598.8" configVersion="cbe5c48a0c9f39498d01d50f87a9b51f00000000"/>
-		<Metadata name="Constant.Data" id="25537c12-8be6-487d-8bb5-0e5285fed311" configVersion="2fe491d0f0e65949971077b9602adce000000000"/>
-		<Metadata name="HTTPService.Coordinate" id="5f5c3596-d2a2-498e-918e-6d2fb5fea022" configVersion="9df9a2ea5af12d42809751225e2a248a00000000">
+		<Metadata name="CommonForm.Form" id="21cdae4e-b590-49d5-82fa-6885709c4a60" configVersion="20dde8e25e31b042b813b2d7b955905500000000"/>
+		<Metadata name="CommonForm.Form.Form" id="21cdae4e-b590-49d5-82fa-6885709c4a60.0" configVersion="9806b67882e30049b37580af9b5e266d00000000"/>
+		<Metadata name="Configuration.FF_ext_server" id="91286da6-355a-4654-9697-c39490d81695" configVersion="9c1de502fd5aac4bbd6b4ab4d96ea1f100000000"/>
+		<Metadata name="Configuration.FF_ext_server.HomePageWorkArea" id="039a1ac9-b9af-457f-b32e-dbf64275c598.8" configVersion="cbe5c48a0c9f39498d01d50f87a9b51f00000000"/>
+		<Metadata name="Constant.Data" id="25537c12-8be6-487d-8bb5-0e5285fed311" configVersion="cf1d5a362bbe7547917ff65794d9cf9a00000000"/>
+		<Metadata name="HTTPService.Coordinate" id="5f5c3596-d2a2-498e-918e-6d2fb5fea022" configVersion="bf4dff3120e86740a145511cf6d0b6dd00000000">
 			<Metadata name="HTTPService.Coordinate.URLTemplate.Coordinate" id="21a1f8cc-a4a9-499f-8783-4ea547726548"/>
 			<Metadata name="HTTPService.Coordinate.URLTemplate.Coordinate.Method.Post" id="7cb8f08a-692c-4ced-9a40-32f2adb1d8ef"/>
 		</Metadata>
 		<Metadata name="HTTPService.Coordinate.Module" id="5f5c3596-d2a2-498e-918e-6d2fb5fea022.0" configVersion="6d871811eaf25f4cbe0f9c13d228336300000000"/>
-		<Metadata name="Language.Русский" id="205976c5-5d5f-4932-aa03-919cad1b2c8b" configVersion="fe7363e444bbe747b9030d4f8f731b9e00000000"/>
-		<Metadata name="Role.Role1" id="70b57fe5-9027-4a11-bd91-d41a09425dd1" configVersion="54875294c763554ea405b4d4f26231bd00000000"/>
-		<Metadata name="Role.Role1.Rights" id="70b57fe5-9027-4a11-bd91-d41a09425dd1.0" configVersion="186b3e238a20e14fa6efcc9e75b54a5600000000"/>
+		<Metadata name="Language.English" id="205976c5-5d5f-4932-aa03-919cad1b2c8b" configVersion="989653da6eccae4bb25960017ebd421500000000"/>
+		<Metadata name="Role.MainRole" id="70b57fe5-9027-4a11-bd91-d41a09425dd1" configVersion="86173f73fc2ae941b093ba13d1a64a2900000000"/>
+		<Metadata name="Role.MainRole.Rights" id="70b57fe5-9027-4a11-bd91-d41a09425dd1.0" configVersion="186b3e238a20e14fa6efcc9e75b54a5600000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
