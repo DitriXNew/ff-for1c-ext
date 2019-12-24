@@ -11,7 +11,7 @@
           username: "admin",
           password: "admin"
         },
-        debug: true,
+        debug: false,
         timeout: 1000
     };
 

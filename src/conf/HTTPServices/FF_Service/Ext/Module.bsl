@@ -33,6 +33,15 @@ Function activeElement(Request)
 	
 	Reg.Write();
 	
+	Str = New Structure("highlight", True);
+	JSON = New JSONWriter;
+	JSON.SetString();
+	WriteJSON(JSON, Str);
+	Data = JSON.Close();
+	
+	Response.SetBodyFromString(Data);
+	
+	
 	Return Response;
 EndFunction
 

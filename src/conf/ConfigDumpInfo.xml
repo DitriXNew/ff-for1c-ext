@@ -13,13 +13,13 @@
 		<Metadata name="Catalog.drawData.Form.ItemForm.Form" id="7a0a3983-f9d8-491a-b1c5-b4bbc5e1e9d2.0" configVersion="4579939922019044b4e8c50197bc7b8c00000000"/>
 		<Metadata name="Configuration.FF_ext_server" id="91286da6-355a-4654-9697-c39490d81695" configVersion="4737850137478746bfc7004686351bc000000000"/>
 		<Metadata name="Configuration.FF_ext_server.HomePageWorkArea" id="039a1ac9-b9af-457f-b32e-dbf64275c598.8" configVersion="67e386b28b5e654596e74dc31127a97100000000"/>
-		<Metadata name="HTTPService.FF_Service" id="5f5c3596-d2a2-498e-918e-6d2fb5fea022" configVersion="1b1ebfd4b2d81f4c9bc52d22919231b600000000">
+		<Metadata name="HTTPService.FF_Service" id="5f5c3596-d2a2-498e-918e-6d2fb5fea022" configVersion="940247be428d0643a985b825f685270c00000000">
 			<Metadata name="HTTPService.FF_Service.URLTemplate.activeElement" id="21a1f8cc-a4a9-499f-8783-4ea547726548"/>
 			<Metadata name="HTTPService.FF_Service.URLTemplate.drawPage" id="420a886c-2947-4db1-b4d4-c7db0f2d7372"/>
 			<Metadata name="HTTPService.FF_Service.URLTemplate.drawPage.Method.Get" id="5c7389ab-fc29-4e34-98ee-2b74ebe0452c"/>
 			<Metadata name="HTTPService.FF_Service.URLTemplate.activeElement.Method.Post" id="7cb8f08a-692c-4ced-9a40-32f2adb1d8ef"/>
 		</Metadata>
-		<Metadata name="HTTPService.FF_Service.Module" id="5f5c3596-d2a2-498e-918e-6d2fb5fea022.0" configVersion="5493c074ef424b47b92ab24aa78a57c100000000"/>
+		<Metadata name="HTTPService.FF_Service.Module" id="5f5c3596-d2a2-498e-918e-6d2fb5fea022.0" configVersion="49a85f44ea981b47becfed0902beaded00000000"/>
 		<Metadata name="InformationRegister.ActiveElementLog" id="e6c08322-f993-422d-8e72-229c58bc6651" configVersion="9f01e287a5132c4697ed7605866707da00000000">
 			<Metadata name="InformationRegister.ActiveElementLog.Dimension.UNIXPeriod" id="12c14d49-a1c2-4905-952f-e49a3e794150"/>
 			<Metadata name="InformationRegister.ActiveElementLog.Dimension.ID" id="190e628e-05e9-4464-bc9d-3f7dfc55b817"/>
