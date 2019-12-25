@@ -11,7 +11,7 @@
           username: "admin",
           password: "admin"
         },
-        debug: true,
+        debug: false,
         timeout: 1000
     };
 
@@ -51,23 +51,29 @@
             return;
         }
 
-        if(settings.debug){
-            function removeAnimation(){
-                activeElement.style.animation = '';
-                activeElement.removeEventListener("animationend", removeAnimation);
-            }
+        function removeAnimation(){
+            activeElement.style.animation = '';
+            activeElement.removeEventListener("animationend", removeAnimation);
+        }
 
+        if(settings.debug){
             activeElement.style.animation = 'blink-bg 0.3s linear 0s 3';
             activeElement.addEventListener("animationend", removeAnimation)
         }
         
         previousCoordinates = currentCoordinates;
     
-       fetch(settings.serviceUrl, {
+       let response = await fetch(settings.serviceUrl, {
             method: 'POST',
             headers: headers,
             body: JSON.stringify({id: window.document.activeElement.id, currentCoordinates: currentCoordinates})
         });
+
+        let data = await response.json();
+        if (data.highlight){
+            activeElement.style.animation = 'blink-bg 0.3s linear 0s 3';
+            activeElement.addEventListener("animationend", removeAnimation)
+        }
 
         setTimeout(() => {
             sendCoordinates();
